@@ -8,4 +8,4 @@
 
 #DEMO:-(# web url #)
 
-  https://rainfall-prediction42.onrender.com
+  https://rainfallprediction-rip.onrender.com
