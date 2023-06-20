@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain predictor</title>
+    <link rel="stylesheet" href={{url_for('static',filename='style1.css')}}>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  </head>
+  <body>
+
+    <section>
+      <input type="checkbox" id="check">
+      <header>
+        <img src="../static/image/logo1.png" height="100px" width="100px" alt="RAINY">
+        <div class="navigation">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="/register">signup</a>
+          <a href="/login">login</a>
+        </div>
+        <label for="check">
+        <i class="fas fa-bars menu-btn"></i>
+        <i class="fas fa-times close-btn"></i>
+        </label>
+      </header>
+      <div class="content" style="margin-top: 8%;">
+        <div class="info">
+          <h2>Rainfall Predictor <br><span>Save Rain</span></h2>
+          <p> "Plant trees to bring the rains and get rid of the summer's heat.” - Trees help reduce and moderate the temperature and climate, which is why it is so important that we have more of them</p>
+          <a href="#about" class="info-btn">More info</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Rain predictor</h2><br><br>
+      <p class="about-content" style="text-align: center; color:white;">Rainfall predictor is a web app which has a Machine
+      Learning model running at the back. The purpose of developing this app is to predict whether it will be 
+      rainfall or not.Today there are no certain methods by using which we can predict whether there will be rainfall 
+      today or not.Even the meteorological department’s prediction fails sometimes. In this article, we will learn how
+      to build a machine-learning model which can predict whether there will be rainfall today or not based on some
+      atmospheric factors.This problem is related to Rainfall Prediction using Machine Learning because machine learning 
+      models tend to perform better on the previously known task which needed highly skilled individuals to do so. 
+      </p>
+      <br><br><br><br>
+      <!-- <p class="copyright" style="color:aqua; text-align:center; font-style:italic">&copy;by Ripunjay Choudhury</p> -->
+    </section>
+    
+
+  </body>
+</html>
+
