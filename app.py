@@ -169,4 +169,4 @@ def result():
 			return render_template("after_rainy.html")
 
 if __name__=='__main__':
-	app.run(debug=True)
+	app.run(debug=False)
