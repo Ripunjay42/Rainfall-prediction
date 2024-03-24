@@ -99,11 +99,11 @@ def logout():
     logout_user()
     return render_template("index.html")
 
-# @app.route("/predict", methods=["GET","POST"])
-# @cross_origin()
-# def predict():
-#     if request.method=="POST":
-#         return render_template('predictor.html')
+@app.route("/predict", methods=["GET","POST"])
+@cross_origin()
+def predict():
+    if request.method=="POST":
+        return render_template('predictor.html')
 
 
 @app.route("/result",methods=['GET', 'POST'])
