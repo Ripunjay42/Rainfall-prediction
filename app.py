@@ -90,7 +90,7 @@ def login():
         if user.password == request.form.get("password"):
             # Use the login_user method to log in the user
             login_user(user)
-            return render_template("dashboard.html")
+            return render_template("predictor.html")
     return render_template("login.html")
 
 
@@ -99,11 +99,11 @@ def logout():
     logout_user()
     return render_template("index.html")
 
-@app.route("/predict", methods=["GET","POST"])
-@cross_origin()
-def predict():
-    if request.method=="POST":
-        return render_template('predictor.html')
+# @app.route("/predict", methods=["GET","POST"])
+# @cross_origin()
+# def predict():
+#     if request.method=="POST":
+#         return render_template('predictor.html')
 
 
 @app.route("/result",methods=['GET', 'POST'])
